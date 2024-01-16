@@ -69,7 +69,6 @@ public class Controller_CarHome {
         }
     }
 
-
     public void Method_3_Down_model(String savePath,String main_url,String fileName){
         DaoFather dao_brand = new DaoFather(0,0);
         ArrayList<Object> BeanLsit = dao_brand.Method_Find();
