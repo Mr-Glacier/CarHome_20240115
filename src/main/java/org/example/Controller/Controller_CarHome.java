@@ -79,7 +79,6 @@ public class Controller_CarHome {
             String DownState = brand.getC_DownState();
             int C_ID  = brand.getC_ID();
             if (DownState.equals("否")){
-
                 String content = Method_DownHTML(main_url.replace("AAAA", brand_id));
                 if (!content.equals("Error")){
                     saveUntil.Method_SaveFile(savePath+brand_id+fileName, content);
